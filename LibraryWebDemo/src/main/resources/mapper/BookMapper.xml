@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.example.library.mapper.BookMapper">
+    <select id="getAll" resultType="org.example.library.entity.Book">
+            SELECT
+                b.id,
+                b.name,
+                b.author,
+                b.price,
+                b.stock,
+                COUNT(br.id) AS borrowCount
+            FROM books b
+            LEFT JOIN borrow_records br ON b.id = br.book_id
+            GROUP BY b.id
+    </select>
+
+    <insert id="addBooks" >
+        INSERT INTO bookmanager_db.books (name, author, price, stock)
+        VALUES(#{name}, #{author}, #{price}, #{stock});
+    </insert>
+    <select id="getBooksById" resultType="org.example.library.entity.Book">
+        SELECT * FROM books WHERE id = #{id}
+    </select>
+    <update id="updateBooks" parameterType="org.example.library.entity.Book">
+        UPDATE books
+        SET name = #{name},
+            author = #{author},
+            price = #{price},
+            stock = #{stock}
+        WHERE id = #{id}
+    </update>
+    <delete id="deleteBooks">
+        DELETE FROM books WHERE id = #{id}
+    </delete>
+
+    <update id="decreaseStock">
+        UPDATE books SET stock = stock - 1 WHERE id = #{id}
+    </update>
+
+    <update id="increaseStock">
+        UPDATE books SET stock = stock + 1 WHERE id = #{id}
+    </update>
+</mapper>
+
+
+
