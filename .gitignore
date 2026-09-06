@@ -1,0 +1,25 @@
+# IDEA 相关
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Maven编译输出
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# 日志文件
+*.log
+
+# Mac系统隐藏文件
+.DS_Store
+
+# 临时文件
+*.tmp
+*.bak
+
+# 数据库敏感配置（如果配置文件写账号密码，按需放开下面一行）
+# src/main/resources/application.yml
