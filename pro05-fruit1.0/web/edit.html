@@ -1,0 +1,65 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>水果库存管理系统</title>
+    <link rel="stylesheet" href="style/edit.css">
+</head>
+<body>
+<div id="div0">
+    <form action="update.do" method="post" th:object="${fruit}">
+        <input type="hidden" name="id" th:value="*{id}"/>
+            <table id="fruit_tbl">
+                <caption class="fruit_title">水果库存编辑页面</caption>
+                <tr>
+                    <th class="w20">名称：</th>
+                    <!-- thymeleaf表达式取session中的数据：${session.key}
+                         取request属性域：  ${key}
+                         取application属性域：  ${application.key}
+                      -->
+                <!-- *{属性名}  表示引用上面的fruit对象的fname属性 -->
+                <td><input type="text" name="fname" th:value="*{fname}" readonly/></td>
+            </tr>
+            <tr>
+                <th class="w25">单价:</th>
+                <td><input type="text" name="price" th:value="*{price}"/> </td>
+            </tr>
+            <tr>
+                <th class="w15">数量:</th>
+                <td><input type="text" name="fcount" th:value="*{fcount}"/> </td>
+            </tr>
+            <tr>
+                <th class="w15">备注:</th>
+                <td><input type="text" name="remark" th:value="*{remark}"/> </td>
+            </tr>
+            <th colspan="2">
+                <input type="submit" value="修改"/>
+                <input type="reset" value="重置"/>
+            </th>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
+
+<!--
+## 完整链路拆解（非常关键）
+
+1. 你点击水果名称，浏览器请求：`http://localhost:8080/edit.do?id=3`
+2. Tomcat 收到`/edit.do`，根据 web.xml 匹配到 `EditServlet`，执行里面`service()`方法
+3. EditServlet 做这些事：
+   - 拿到 url 上的 id=3
+   - 根据 id 查询数据库，得到 Fruit 对象
+   - `request.setAttribute("fruit",fruit);` 把水果对象放到 request 域，给模板页面用
+   - **`super.processTemplate("edit",request,response);`**
+   ✅ 这行就是**调用父类 ViewBaseServlet 里面的 Thymeleaf 代码**
+     - `"edit"` 代表模板文件名：`edit.html`（不用写 .html 后缀，框架自动补）
+     - 框架会去找 `edit.html`，读取这个 html
+     - 把 request 域里面的`fruit`对象传入页面
+     - Thymeleaf 解析页面里`${fruit.xxx}`表达式，把数据填充进 html
+     - **生成一份完整的纯 html，返回给浏览器**
+
+>
+> 👉 浏览器拿到的是**渲染完成后的网页**，浏览器根本不知道后端有 edit.html 模板文件！
+> 浏览器只知道自己请求了 `/edit.do`，收到 html 页面结果。
+-->

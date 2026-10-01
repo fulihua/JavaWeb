@@ -1,0 +1,77 @@
+body{
+    background-color: darkslategray;
+    padding:0;
+    margin:0;
+}
+div{
+    position: relative;
+    float: left;
+}
+#div0{
+    background-color: beige;
+    width:60%;
+    margin-left:20%;
+    height:100%;
+}
+
+#fruit_tbl{
+    border:1px solid lightgray;
+    width:80%;
+    margin-left:10%;
+    margin-top:64px;
+    line-height: 28px;
+    border-collapse: collapse;/*collapse:合并*/
+}
+
+#fruit_tbl , #fruit_tbl tr , #fruit_tbl td , #fruit_tbl th{
+    text-align: center;
+    border:1px solid lightgray;
+    font-weight: lighter;
+}
+.delImg{
+    width:24px;
+    height:24px;
+}
+.fruit_title{
+    font-size: 24px;
+    letter-spacing: 8px;
+    margin-bottom: 8px;
+}
+.w10{
+    width:10%;
+}
+.w15{
+    width:15%;
+}
+.w20{
+    width:20%;
+}
+.w25{
+    width:25%;
+}
+
+#add_fruit{
+    width:40%;
+    margin-left:30%;
+    border:1px solid lightgray;
+    border-collapse: collapse;
+    line-height: 26px;
+}
+
+#add_fruit , #add_fruit td , #add_fruit th{
+    font-size: 14px;
+    font-weight: lighter;
+    border:1px solid lightgray;
+}
+
+.add_fruit_title{
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+#add_fruit td input{
+    margin-left:4px;
+}

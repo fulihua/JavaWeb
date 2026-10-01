@@ -1,0 +1,130 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>水果库存管理系统</title>
+    <link rel="stylesheet" th:href="@{/style/index.css}">
+    <script language="JavaScript">
+        function delFruit(id){
+        if(window.confirm("是否确认删除?")){
+        window.location.href='del.do?id='+id;
+        }
+       }
+       function page(pageNo){
+        window.location.href='/index?pageNo='+pageNo;
+        }
+    </script>
+</head>
+<body>
+<div id="div0">
+    <div id="div_search">
+        <div class="fruit_title">水果库存页面</div>
+        <form action="{@/fruit.do}" method="post">
+            <input type="hidden" name="operate" value="search"/>
+            请输入查询关键字：<input type="text" name="keyword" th:value="${session.keyword!=null ? session.keyword : ''}"/><input type="submit" value="查询" class="pageBtn"/>
+        </form>
+        <!-- 问题1：此处index.html和add.html明明在同一个目录下，但是却不能直接写add.html -->
+        <!--
+            原因是：index.html这个页面是通过processTemplate()服务器转发过来的，地址栏仍然是 localhost/index
+            index在根目录下，如果href="add.html"那就表示在根目录下找add.html
+        -->
+        <!-- 问题2：当点击add.html页面上的添加按钮进行提交时，出现了404 - /pages/member/add.do -->
+        <!--
+            原因是: add.html页面在pages/member下面，因此我这个页面上的所有路径都是基于pages/member
+        -->
+        <!--
+            以后所有的路径都必须使用绝对路径，不能使用相对路径
+        -->
+        <!--   @{/} 会被渲染成 http://ServletIP:端口号/上下文名称 -->
+        <!-- <span style = "float:right;"><a th:href="@{/page?page=pages/member/add}">添加新库存<a></span> -->
+        <!--  @{/} 如果这个里面需要带请求参数，那么格式如下：
+               @{/page(k1=v1,k2=v2,k3=v3,...)}
+        -->
+    </div>
+    <table id="fruit_tbl">
+         <span style="float: right;margin-left: 20%;"><a th:href="@{/page(page='add')}">添加新库存</a></span>
+         <tr>
+            <th class="w15">序号1</th>
+            <th class="w20">名称</th>
+            <th class="w25">单价</th>
+            <th class="w15">数量</th>
+            <th>操作</th>
+        </tr>
+        <!--
+        th:each 表示准备迭代
+        ${} 这是thymeleaf的语法，表示thymeleaf表达式
+        session.key 相当于  session.getAttribute(key)
+        :  冒号相当于增强for循环中的冒号  , fruit是临时变量
+        -->
+        <!--
+        th:if  表示分支判断   对应的有 th:unless
+        #lists 是一个公共的内置对象（工具类）
+         -->
+        <!--
+         ${fruit.price}
+         这里的.属性名  是一种语法，称之为OGNL语法 。 实际上是调用这个对象的属性的getter方法
+         OGNL: Object Graphic Navigation Language   对象图导航语言
+         -->
+        <tr th:if="${not #lists.isEmpty(session.fruitList)}" th:each="fruit,status : ${session.fruitList}">
+            <td th:text="${status.count}">1</td>
+            <td><a style="text-decoration:none;" th:href="@{fruit.do(id=${fruit.id},oper='edit')}" th:text="${fruit.fname}">苹果</a></td>
+            <td th:text="${fruit.price}">5</td>
+            <td th:text="${fruit.fcount}">2</td>
+            <td><img name="delImg" th:src="@{/imgs/del.png}" class="delImg" th:onclick="'delFruit('+${fruit.id}+')'"/></td>
+        </tr>
+        <tr th:unless="${not #lists.isEmpty(session.fruitList)}">
+            <td colspan="5">对不起，库存为空！</td>
+        </tr>
+    </table>
+    <div id="div_page_btn">
+        <input type="button" class="pageBtn" value="首页" onclick="page(1)" th:disabled="${session.pageNo==1}"/>
+      <!--<input type="button" class="pageBtn" value="上一页" th:onclick="'page('+${session.pageNo}+'-1)'" th:disabled="${session.pageNo==1}"/>
+        <input type="button" class="pageBtn" value="下一页" th:onclick="'page('+${session.pageNo}+'+1)'" th:disabled="${session.pageNo==session.pageCount}"/>
+        <input type="button" class="pageBtn" value="尾页" th:onclick="'page('+${session.pageCount}+')'" th:disabled="${session.pageNo==session.pageCount}"/> -->
+        <!-- ||表示字符串连接符号，表示这个里面优先解析thymeleaf表达式，解析完成之后再拼接成整个字符串-->
+        <input type="button" class="pageBtn" value="上一页" th:onclick="|page(${session.pageNo}-1)|" th:disabled="${session.pageNo==1}"/>
+        <input type="button" class="pageBtn" value="下一页" th:onclick="|page(${session.pageNo}+1)|" th:disabled="${session.pageNo==session.pageCount}"/>
+        <input type="button" class="pageBtn" value="尾页" th:onclick="|page(${session.pageCount})|" th:disabled="${session.pageNo==session.pageCount}"/>
+
+    </div>
+</div>
+</body>
+</html>
+
+
+
+<!--
+# Thymeleaf `th:each` + `th:text` 讲解（正好适配你的 fruit 水果项目）
+
+>
+> `th:each`：**循环遍历**，类似 Java 里 for 循环，用来遍历集合（你 servlet 传过来的`fruitList`）
+> `th:text`：**文本渲染**，把后端 Java 对象的属性值显示到网页上，自动替换标签内文字
+
+## 1. th:each 语法
+
+```
+th:each="单个对象 : ${集合}"
+```
+
+- `${fruitList}`：后端存到域里的集合（就是你查出来的`List<Fruit>`）
+- `fruit`：循环里**每一个水果对象**，名字自己随便取
+
+## 2. th:text 语法
+
+```
+th:text="${对象.属性}"
+```
+
+用来输出对象的属性，比如水果名字、价格
+
+-->
+
+
+<!--
+重点解释：`th:text` 里面写的**苹果、5、2 只是备用默认值**
+1. **thymeleaf 规则：只要 `th:text` 属性存在，优先执行 `${}` 表达式**
+   - ✅ 后端正常把 `fruit` 对象传过来 → **页面会显示 fruit.fname 的真实值**，中间写的`苹果`直接被覆盖，不会展示苹果！
+   - ⚠️ 如果后端数据为空、对象找不到、报错了 → 才会显示标签体里面的文字 `苹果`，当做兜底备用内容。
+
+>
+> 简单一句话：**标签中间写的内容，是给浏览器直接打开 html 文件预览用的；当经过 Tomcat+Thymeleaf 渲染后，会被 th:text 的值替换掉。**
+-->

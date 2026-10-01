@@ -1,0 +1,40 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>水果库存管理系统</title>
+    <!-- base标签中的href的作用是当前页面所有的路径都是基于 http://localhost/pro06/这个路径  -->
+    <!--<base href="http://localhost/pro06/">-->
+    <link rel="stylesheet" th:href="@{/style/edit.css}">
+</head>
+<body>
+<div id="div0">
+    <form th:action="@{/add.do}" method="post" >
+        <table id="fruit_tbl">
+            <caption class="fruit_title">水果库存添加页面</caption>
+            <tr>
+                <th class="w20">名称:</th>
+                <td><input type="text" name="fname"/></td>
+            </tr>
+            <tr>
+                <th class="w25">单价:</th>
+                <td><input type="text" name="price" /> </td>
+            </tr>
+            <tr>
+                <th class="w15">数量:</th>
+                <td><input type="text" name="fcount" /> </td>
+            </tr>
+            <tr>
+                <th class="w15">备注:</th>
+                <td><input type="text" name="remark" /> </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <input type="submit" value="添加"/>
+                    <input type="reset" value="重置"/>
+                </th>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
