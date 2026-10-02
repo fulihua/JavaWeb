@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE beans[
+        <!ELEMENT beans (bean*)>
+        <!ELEMENT bean (property*)>
+        <!ELEMENT property (#PCDATA)>
+        <!ATTLIST bean id ID #REQUIRED>
+        <!ATTLIST bean class CDATA #REQUIRED>
+        <!ATTLIST property name CDATA #REQUIRED>
+        <!ATTLIST property ref IDREF #REQUIRED>
+        ]>
+
+
+<beans>
+    <!--bean: javabean组件-->
+    <bean id="fruitDao" class="fruit.dao.impl.FruitDaoImpl"/>
+    <bean id="fruitService" class="fruit.service.impl.FruitServiceImpl">
+        <property name="fruitDao" ref="fruitDao"/>
+    </bean>
+    <bean id="fruit" class="fruit.controller.FruitController">
+        <property name="fruitService" ref="fruitService"></property>
+    </bean>
+</beans>

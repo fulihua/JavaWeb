@@ -20,7 +20,7 @@ import java.util.List;
  * @description
  */
 @WebServlet("/fruit.do")
-public class FruitServlet extends fruit.servlet.ViewBaseServlet {
+public class FruitServlet extends ViewBaseServlet {
     private static final String FRUIT_DO = "fruit.do";
 
     @Override

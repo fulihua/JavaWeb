@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- pathname="" 代表不把session保存到硬盘，直接关闭session持久化，解决报错 -->
+    <Manager pathname="" />
+</Context>

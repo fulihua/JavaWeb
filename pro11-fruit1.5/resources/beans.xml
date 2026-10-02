@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans>
+    <!--bean: javabean组件-->
+    <bean id="fruiDao" class="fruit.dao.impl.FruitDaoImpl"/>
+    <bean id="fruitService" class="fruit.service.impl.FruitServiceImpl">
+        <property name="fruitDao" ref="fruitDao"/>
+    </bean>
+</beans>
