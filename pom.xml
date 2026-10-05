@@ -14,6 +14,8 @@
         <module>pro02-v3-jdbc</module>
         <module>pro05-fruit1.0</module>
         <module>pro09-servlet</module>
+        <module>pro06-fruit1.1</module>
+        <module>pro14-filter-listener</module>
     </modules>
 
     <properties>
