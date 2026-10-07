@@ -24,7 +24,7 @@
         </init-param>
     </filter>
     <filter-mapping>
-        <filter-name>CharacterEncodingnFilter</filter-name>
+        <filter-name>CharacterEncodingFilter</filter-name>
         <url-pattern>*.do</url-pattern>
     </filter-mapping>
     <filter>

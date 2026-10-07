@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE beans[
+        <!ELEMENT beans (bean*)>
+        <!ELEMENT bean (property*)>
+        <!ELEMENT property (#PCDATA)>
+        <!ATTLIST bean id ID #REQUIRED>
+        <!ATTLIST bean class CDATA #REQUIRED>
+        <!ATTLIST property name CDATA #REQUIRED>
+        <!ATTLIST property ref IDREF #REQUIRED>
+        ]>
+
+
+<beans>
+
+    <!-- 1.DAO配置-->
+    <bean id="userBasicDao" class="qqzone.dao.impl.UserBasicDaoImpl"/>
+    <bean id ="topicDao" class="qqzone.dao.impl.TopicDaoImpl"/>
+    <bean id="replyDao" class="qqzone.dao.impl.ReplyDaoImpl"></bean>
+    <bean id="hostReplyDao" class="qqzone.dao.impl.HostReplyDaoImpl"></bean>
+
+    <!-- 2.Service配置-->
+    <bean id="hostReplyService" class="qqzone.service.impl.HostReplyServiceImpl">
+        <property name="hostReplyDao" ref="hostReplyDao"/>
+    </bean>
+    <bean id="replyService" class="qqzone.service.impl.ReplyServiceImpl">
+        <property name="replyDao" ref="replyDao"></property>
+        <property name="userBasicService" ref="userBasicService"></property>
+        <property name="hostReplyService" ref="hostReplyService"></property>
+    </bean>
+    <bean id="userBasicService" class="qqzone.service.impl.UserBasicServiceImpl">
+        <property name="userBasicDao" ref="userBasicDao"/>
+    </bean>
+    <bean id="topicService" class="qqzone.service.impl.TopicServiceImpl">
+        <property name="topicDao" ref="topicDao"></property>
+        <property name="userBasicService" ref="userBasicService"></property>
+        <property name="replyService" ref="replyService"></property>
+    </bean>
+
+    <!-- 3.Controller配置-->
+    <bean id="user" class="qqzone.controller.UserController">
+        <property name="userBasicService" ref="userBasicService"/>
+        <property name="topicService" ref="topicService"></property>
+    </bean>
+    <bean id="topic" class="qqzone.controller.TopicController">
+        <property name="topicService" ref="topicService"></property>
+        <property name="userBasicService" ref="userBasicService"></property>
+    </bean>
+    <bean id="reply" class="qqzone.controller.ReplyController">
+        <property name="replyService" ref="replyService"></property>
+    </bean>
+    <bean id="hostReply" class="qqzone.controller.HostReplyController">
+        <property name="hostReplyService" ref="hostReplyService"></property>
+    </bean>
+</beans>
+
+<!--
+    这里的id为啥都是小写？这里面的所有名称分别与什么相对应？有什么含义？
+-->

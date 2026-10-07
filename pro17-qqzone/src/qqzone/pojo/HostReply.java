@@ -1,0 +1,70 @@
+package qqzone.pojo;
+
+import java.util.Date;
+
+/**
+ * @author fulihua
+ * @date 2026/10/5 2:54 PM
+ * @description
+ */
+public class HostReply {
+    private Integer id;
+    private String content;
+    private Date hostReplyDate;
+    private UserBasic author;
+    private Reply reply;  //1:1 UK  实际上是M:1
+
+    public HostReply() {
+    }
+
+    public HostReply(Integer id) {
+        this.id = id;
+    }
+
+    public HostReply(String content, Date hostReplyDate, UserBasic author, Reply reply) {
+        this.content = content;
+        this.hostReplyDate = hostReplyDate;
+        this.author = author;
+        this.reply = reply;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public Date getHostReplyDate() {
+        return hostReplyDate;
+    }
+
+    public void setHostReplyDate(Date hostReplyDate) {
+        this.hostReplyDate = hostReplyDate;
+    }
+
+    public UserBasic getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(UserBasic author) {
+        this.author = author;
+    }
+
+    public Reply getReply() {
+        return reply;
+    }
+
+    public void setReply(Reply reply) {
+        this.reply = reply;
+    }
+}

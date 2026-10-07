@@ -16,6 +16,7 @@
         <module>pro09-servlet</module>
         <module>pro06-fruit1.1</module>
         <module>pro14-filter-listener</module>
+        <module>pro17-qqzone</module>
     </modules>
 
     <properties>

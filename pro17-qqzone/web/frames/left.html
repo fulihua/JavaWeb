@@ -1,0 +1,19 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/css/common.css}">
+    <link rel="stylesheet" th:href="@{/css/left.css}">
+</head>
+<body>
+    <div id="div_friendList" >
+        我的好友<br/>
+        <ul>
+            <li th:if="${#lists.isEmpty(session.userBasic.friendList)}">暂无好友</li>
+            <li th:unless="${#lists.isEmpty(session.userBasic.friendList)}"
+                th:each="friend : ${session.userBasic.friendList}"
+                th:object="${friend}"><a target="_top" th:href="@{/topic.do(oper='getTopicList',id=*{id})}" th:text="*{nickName}">阿朱</a></li>
+        </ul>
+    </div>
+</body>
+</html>

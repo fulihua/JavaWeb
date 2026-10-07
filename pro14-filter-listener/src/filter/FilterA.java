@@ -8,7 +8,7 @@ import java.io.IOException;
  * @date 2026/10/4 2:41 PM
  * @description
  */
-@WebFilter("/hello")
+//@WebFilter("/hello")
 public class FilterA implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {

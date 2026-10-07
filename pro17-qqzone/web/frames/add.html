@@ -1,0 +1,32 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/css/common.css}">
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+</head>
+<body>
+<div id="div_topic_list" style="margin-top:64px">
+    <p style="text-align:center;font-size:18px;letter-spacing:2px;">提交新日志</p>
+    <form th:action="@{/topic.do}" method="post">
+        <input type="hidden" name="oper" value="addTopic"/>
+        <table id="tbl_topic_list">
+            <tr>
+                <th>标题：</th>
+                <td><input type="text" name="title"/></td>
+            </tr>
+            <tr>
+                <th>内容：</th>
+                <td><textarea name="content" rows="5" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <input type="submit" value="发表"/>
+                    <input type="reset" value="重写"/>
+                </th>
+            </tr>
+        </table>
+    </form>
+  </div>
+</body>
+</html>
