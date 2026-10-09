@@ -26,6 +26,9 @@ public class TransactionManager {
     }
     public static void commit(){
         Connection conn = tl.get();
+        if(conn == null){
+            return;
+        }
         try{
             System.out.println("提交事务...");
             conn.commit();
@@ -39,6 +42,9 @@ public class TransactionManager {
       }
       public static void rollback(){
           Connection conn = tl.get();
+          if(conn == null){
+              return;
+          }
           try {
               System.out.println("回滚事务....");
               conn.rollback();

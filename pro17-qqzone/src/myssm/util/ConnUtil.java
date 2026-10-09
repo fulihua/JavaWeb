@@ -34,7 +34,8 @@ public class ConnUtil {
     }
 
     private static void loadProperties() {
-        InputStream inputStream = ConnUtil.class.getClassLoader().getResourceAsStream("jdbc.properties");//`getClass()` 需要实体对象！而 `this` 就是那个对象！
+        InputStream inputStream = ConnUtil.class.getClassLoader().getResourceAsStream("jdbc.properties");//现在的代码是**静态代码块 static {}**，
+        // 静态代码块执行的时候，**不存在 ConnUtil 的实例对象，没有 this**，所以**不能写`this.getClass().getClassLoader()`，只能用`ConnUtil.class.getClassLoader()`**。
         Properties properties = new Properties();
         try {
             properties.load(inputStream);
