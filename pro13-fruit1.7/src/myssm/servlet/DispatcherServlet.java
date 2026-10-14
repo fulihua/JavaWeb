@@ -19,7 +19,7 @@ import java.lang.reflect.Parameter;
  * @description
  */
 
-@WebServlet("*.do")
+//@WebServlet("*.do")
 public class DispatcherServlet extends ViewBaseServlet {
     private BeanFactory beanFactory = new ClassPathXmlApplicationContext();
 
