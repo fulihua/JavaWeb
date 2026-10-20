@@ -18,6 +18,7 @@
         <module>pro14-filter-listener</module>
         <module>pro17-qqzone</module>
         <module>pro18-myselfDemo</module>
+        <module>pro19-book</module>
     </modules>
 
     <properties>

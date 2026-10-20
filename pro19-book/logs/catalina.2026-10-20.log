@@ -1,0 +1,1100 @@
+20-Oct-2026 16:59:16.772 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+20-Oct-2026 16:59:16.784 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+20-Oct-2026 16:59:16.784 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+20-Oct-2026 16:59:16.785 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+20-Oct-2026 16:59:16.785 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           14.7.4
+20-Oct-2026 16:59:16.785 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+20-Oct-2026 16:59:16.785 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Oct-2026 16:59:16.786 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.21+9-LTS-193
+20-Oct-2026 16:59:16.786 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+20-Oct-2026 16:59:16.786 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 16:59:16.786 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 16:59:16.809 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 16:59:16.809 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 16:59:16.809 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 16:59:16.810 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 16:59:16.810 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 16:59:16.810 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 16:59:16.810 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 16:59:16.811 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/temp
+20-Oct-2026 16:59:16.811 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/logging.properties
+20-Oct-2026 16:59:16.811 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 16:59:16.811 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=53072:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Oct-2026 16:59:16.811 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+20-Oct-2026 16:59:16.842 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/fuyuguang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+20-Oct-2026 16:59:17.437 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+20-Oct-2026 16:59:17.480 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1069]毫秒内初始化
+20-Oct-2026 16:59:17.569 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+20-Oct-2026 16:59:17.569 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+20-Oct-2026 16:59:17.591 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]。
+20-Oct-2026 16:59:18.471 严重 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]时出错
+	java.lang.IllegalStateException: 启动子级时出错
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:691)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1897)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:584)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1619)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: 无法启动组件[StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: servlet映射中的<url pattern>[null]无效
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3032)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:917)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1567)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1334)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4820)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 38 more
+20-Oct-2026 16:59:18.477 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]的部署已在[884]ms内完成
+20-Oct-2026 16:59:18.481 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+20-Oct-2026 16:59:18.498 信息 [main] org.apache.catalina.startup.Catalina.start [1017]毫秒后服务器启动
+20-Oct-2026 17:02:28.565 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload 重新加载上下文[]
+20-Oct-2026 17:02:29.569 信息 [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 17:02:29.610 严重 [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal 一个或多个listeners启动失败，更多详细信息查看对应的容器日志文件
+20-Oct-2026 17:02:29.626 严重 [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[]启动失败
+20-Oct-2026 17:02:52.062 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+20-Oct-2026 17:02:52.071 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+20-Oct-2026 17:02:52.079 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 17:02:52.099 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+20-Oct-2026 17:10:12.023 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+20-Oct-2026 17:10:12.029 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+20-Oct-2026 17:10:12.029 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+20-Oct-2026 17:10:12.029 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+20-Oct-2026 17:10:12.030 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           14.7.4
+20-Oct-2026 17:10:12.030 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+20-Oct-2026 17:10:12.030 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Oct-2026 17:10:12.030 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.21+9-LTS-193
+20-Oct-2026 17:10:12.031 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+20-Oct-2026 17:10:12.031 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 17:10:12.031 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 17:10:12.054 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 17:10:12.055 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 17:10:12.055 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 17:10:12.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 17:10:12.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 17:10:12.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 17:10:12.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 17:10:12.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/temp
+20-Oct-2026 17:10:12.057 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/logging.properties
+20-Oct-2026 17:10:12.057 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 17:10:12.057 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=57347:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Oct-2026 17:10:12.057 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+20-Oct-2026 17:10:12.075 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/fuyuguang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+20-Oct-2026 17:10:12.606 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+20-Oct-2026 17:10:12.642 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[955]毫秒内初始化
+20-Oct-2026 17:10:12.717 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+20-Oct-2026 17:10:12.718 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+20-Oct-2026 17:10:12.729 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]。
+20-Oct-2026 17:10:14.085 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 17:10:14.116 严重 [main] org.apache.catalina.core.StandardContext.startInternal 一个或多个listeners启动失败，更多详细信息查看对应的容器日志文件
+20-Oct-2026 17:10:14.131 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[]启动失败
+20-Oct-2026 17:10:14.144 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]的部署已在[1,413]ms内完成
+20-Oct-2026 17:10:14.148 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+20-Oct-2026 17:10:14.166 信息 [main] org.apache.catalina.startup.Catalina.start [1524]毫秒后服务器启动
+20-Oct-2026 17:22:14.665 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload 重新加载上下文[]
+20-Oct-2026 17:22:15.753 信息 [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 17:22:15.761 严重 [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal 一个或多个listeners启动失败，更多详细信息查看对应的容器日志文件
+20-Oct-2026 17:22:15.764 严重 [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[]启动失败
+20-Oct-2026 17:22:15.815 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+20-Oct-2026 17:22:15.826 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+20-Oct-2026 17:22:15.832 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 17:22:15.854 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+20-Oct-2026 17:25:02.716 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+20-Oct-2026 17:25:02.722 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+20-Oct-2026 17:25:02.723 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+20-Oct-2026 17:25:02.723 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+20-Oct-2026 17:25:02.723 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           14.7.4
+20-Oct-2026 17:25:02.723 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+20-Oct-2026 17:25:02.724 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Oct-2026 17:25:02.724 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.21+9-LTS-193
+20-Oct-2026 17:25:02.724 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+20-Oct-2026 17:25:02.724 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 17:25:02.724 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 17:25:02.746 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 17:25:02.746 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 17:25:02.746 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 17:25:02.747 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 17:25:02.747 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 17:25:02.747 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 17:25:02.747 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 17:25:02.748 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/temp
+20-Oct-2026 17:25:02.748 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/logging.properties
+20-Oct-2026 17:25:02.748 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 17:25:02.749 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=59664:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Oct-2026 17:25:02.749 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+20-Oct-2026 17:25:02.765 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/fuyuguang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+20-Oct-2026 17:25:03.302 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+20-Oct-2026 17:25:03.343 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[975]毫秒内初始化
+20-Oct-2026 17:25:03.426 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+20-Oct-2026 17:25:03.426 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+20-Oct-2026 17:25:03.444 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]。
+20-Oct-2026 17:25:04.846 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 17:25:04.858 严重 [main] org.apache.catalina.core.StandardContext.startInternal 一个或多个listeners启动失败，更多详细信息查看对应的容器日志文件
+20-Oct-2026 17:25:04.875 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[]启动失败
+20-Oct-2026 17:25:04.888 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]的部署已在[1,442]ms内完成
+20-Oct-2026 17:25:04.892 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+20-Oct-2026 17:25:04.912 信息 [main] org.apache.catalina.startup.Catalina.start [1568]毫秒后服务器启动
+20-Oct-2026 17:26:46.802 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+20-Oct-2026 17:26:46.810 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+20-Oct-2026 17:26:46.814 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 17:26:46.826 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+20-Oct-2026 17:28:52.601 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+20-Oct-2026 17:28:52.607 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+20-Oct-2026 17:28:52.607 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+20-Oct-2026 17:28:52.607 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+20-Oct-2026 17:28:52.607 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           14.7.4
+20-Oct-2026 17:28:52.607 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+20-Oct-2026 17:28:52.608 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Oct-2026 17:28:52.608 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.21+9-LTS-193
+20-Oct-2026 17:28:52.608 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+20-Oct-2026 17:28:52.608 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 17:28:52.608 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 17:28:52.625 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 17:28:52.625 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 17:28:52.626 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 17:28:52.626 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 17:28:52.626 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 17:28:52.626 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 17:28:52.627 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 17:28:52.627 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/temp
+20-Oct-2026 17:28:52.627 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/logging.properties
+20-Oct-2026 17:28:52.627 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 17:28:52.627 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=60257:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Oct-2026 17:28:52.627 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+20-Oct-2026 17:28:52.642 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/fuyuguang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+20-Oct-2026 17:28:53.159 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+20-Oct-2026 17:28:53.204 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[938]毫秒内初始化
+20-Oct-2026 17:28:53.306 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+20-Oct-2026 17:28:53.306 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+20-Oct-2026 17:28:53.319 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]。
+20-Oct-2026 17:28:54.883 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 17:28:54.930 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]的部署已在[1,608]ms内完成
+20-Oct-2026 17:28:54.939 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+20-Oct-2026 17:28:54.962 信息 [main] org.apache.catalina.startup.Catalina.start [1758]毫秒后服务器启动
+20-Oct-2026 17:30:59.091 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+20-Oct-2026 17:30:59.103 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+20-Oct-2026 17:30:59.168 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 17:30:59.181 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+20-Oct-2026 17:36:52.294 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+20-Oct-2026 17:36:52.300 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+20-Oct-2026 17:36:52.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+20-Oct-2026 17:36:52.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+20-Oct-2026 17:36:52.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           14.7.4
+20-Oct-2026 17:36:52.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+20-Oct-2026 17:36:52.302 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Oct-2026 17:36:52.302 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.21+9-LTS-193
+20-Oct-2026 17:36:52.302 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+20-Oct-2026 17:36:52.302 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 17:36:52.303 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 17:36:52.319 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 17:36:52.319 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 17:36:52.319 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 17:36:52.320 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 17:36:52.320 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 17:36:52.320 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 17:36:52.320 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 17:36:52.321 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/temp
+20-Oct-2026 17:36:52.321 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/logging.properties
+20-Oct-2026 17:36:52.321 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 17:36:52.321 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=61551:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Oct-2026 17:36:52.321 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+20-Oct-2026 17:36:52.335 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/fuyuguang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+20-Oct-2026 17:36:52.821 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+20-Oct-2026 17:36:52.869 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[940]毫秒内初始化
+20-Oct-2026 17:36:52.978 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+20-Oct-2026 17:36:52.978 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+20-Oct-2026 17:36:52.997 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]。
+20-Oct-2026 17:36:54.387 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 17:36:54.403 严重 [main] org.apache.catalina.core.StandardContext.startInternal 一个或多个listeners启动失败，更多详细信息查看对应的容器日志文件
+20-Oct-2026 17:36:54.423 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[]启动失败
+20-Oct-2026 17:36:54.435 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]的部署已在[1,436]ms内完成
+20-Oct-2026 17:36:54.439 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+20-Oct-2026 17:36:54.456 信息 [main] org.apache.catalina.startup.Catalina.start [1586]毫秒后服务器启动
+20-Oct-2026 17:41:03.518 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+20-Oct-2026 17:41:03.606 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+20-Oct-2026 17:41:03.614 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 17:41:03.630 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+20-Oct-2026 19:37:48.446 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+20-Oct-2026 19:37:48.452 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+20-Oct-2026 19:37:48.452 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+20-Oct-2026 19:37:48.452 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+20-Oct-2026 19:37:48.452 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           14.7.4
+20-Oct-2026 19:37:48.453 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+20-Oct-2026 19:37:48.453 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Oct-2026 19:37:48.453 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.21+9-LTS-193
+20-Oct-2026 19:37:48.453 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+20-Oct-2026 19:37:48.453 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 19:37:48.453 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 19:37:48.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 19:37:48.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 19:37:48.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 19:37:48.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 19:37:48.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 19:37:48.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 19:37:48.473 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 19:37:48.473 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/temp
+20-Oct-2026 19:37:48.473 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/logging.properties
+20-Oct-2026 19:37:48.473 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 19:37:48.474 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=64920:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Oct-2026 19:37:48.474 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+20-Oct-2026 19:37:48.488 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/fuyuguang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+20-Oct-2026 19:37:49.037 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+20-Oct-2026 19:37:49.072 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1017]毫秒内初始化
+20-Oct-2026 19:37:49.162 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+20-Oct-2026 19:37:49.162 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+20-Oct-2026 19:37:49.178 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]。
+20-Oct-2026 19:37:50.532 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 19:37:50.562 严重 [main] org.apache.catalina.core.StandardContext.startInternal 一个或多个listeners启动失败，更多详细信息查看对应的容器日志文件
+20-Oct-2026 19:37:50.576 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[]启动失败
+20-Oct-2026 19:37:50.587 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]的部署已在[1,408]ms内完成
+20-Oct-2026 19:37:50.591 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+20-Oct-2026 19:37:50.609 信息 [main] org.apache.catalina.startup.Catalina.start [1536]毫秒后服务器启动
+20-Oct-2026 19:39:47.635 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+20-Oct-2026 19:39:47.643 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+20-Oct-2026 19:39:47.648 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 19:39:47.658 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+20-Oct-2026 19:41:21.110 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+20-Oct-2026 19:41:21.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+20-Oct-2026 19:41:21.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+20-Oct-2026 19:41:21.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+20-Oct-2026 19:41:21.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           14.7.4
+20-Oct-2026 19:41:21.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+20-Oct-2026 19:41:21.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Oct-2026 19:41:21.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.21+9-LTS-193
+20-Oct-2026 19:41:21.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+20-Oct-2026 19:41:21.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 19:41:21.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 19:41:21.137 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 19:41:21.137 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 19:41:21.137 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 19:41:21.138 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 19:41:21.138 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 19:41:21.138 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 19:41:21.138 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 19:41:21.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/temp
+20-Oct-2026 19:41:21.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/logging.properties
+20-Oct-2026 19:41:21.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 19:41:21.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=51558:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Oct-2026 19:41:21.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+20-Oct-2026 19:41:21.155 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/fuyuguang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+20-Oct-2026 19:41:21.701 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+20-Oct-2026 19:41:21.745 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[977]毫秒内初始化
+20-Oct-2026 19:41:21.815 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+20-Oct-2026 19:41:21.816 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+20-Oct-2026 19:41:21.826 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]。
+20-Oct-2026 19:41:23.043 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 19:41:23.143 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]的部署已在[1,312]ms内完成
+20-Oct-2026 19:41:23.157 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+20-Oct-2026 19:41:23.178 信息 [main] org.apache.catalina.startup.Catalina.start [1432]毫秒后服务器启动
+20-Oct-2026 19:43:03.881 严重 [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource.error {dataSource-1} init error
+	java.sql.SQLException: com.mysql.jdbc.Driver
+		at com.alibaba.druid.util.JdbcUtils.createDriver(JdbcUtils.java:688)
+		at com.alibaba.druid.pool.DruidDataSource.resolveDriver(DruidDataSource.java:1259)
+		at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:887)
+		at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1444)
+		at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1440)
+		at myssm.util.ConnUtil.getConn(ConnUtil.java:60)
+		at myssm.trans.TransactionManager.begin(TransactionManager.java:18)
+		at myssm.filter.OpenSessionInViewFilter.doFilter(OpenSessionInViewFilter.java:21)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at myssm.filter.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:27)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1329)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1141)
+		at java.base/java.lang.Class.forName0(Native Method)
+		at java.base/java.lang.Class.forName(Class.java:315)
+		at com.alibaba.druid.util.JdbcUtils.createDriver(JdbcUtils.java:686)
+		... 29 more
+20-Oct-2026 19:50:09.422 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+20-Oct-2026 19:50:09.432 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+20-Oct-2026 19:50:09.441 信息 [Thread-1] org.apache.catalina.core.StandardWrapper.unload 正在等待为Servlet[default]释放[1]实例
+20-Oct-2026 19:50:10.468 信息 [Thread-1] org.apache.catalina.core.StandardWrapper.unload 正在等待为Servlet[default]释放[1]实例
+20-Oct-2026 19:50:11.496 信息 [Thread-1] org.apache.catalina.core.StandardWrapper.unload 正在等待为Servlet[default]释放[1]实例
+20-Oct-2026 19:50:11.629 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.alibaba.druid.proxy.DruidDriver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 19:50:11.631 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads web应用程序[ROOT]仍在处理一个尚未完成的请求。这很可能会造成内存泄漏。您可以使用标准上下文实现的unloadDelay属性来控制请求完成所允许的时间。请求处理线程的堆栈跟踪：[
+ java.base@11.0.21/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.21/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.21/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ com.alibaba.druid.pool.DruidDataSource.takeLast(DruidDataSource.java:2283)
+ com.alibaba.druid.pool.DruidDataSource.getConnectionInternal(DruidDataSource.java:1755)
+ com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:1470)
+ com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1450)
+ com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1440)
+ myssm.util.ConnUtil.getConn(ConnUtil.java:60)
+ myssm.trans.TransactionManager.begin(TransactionManager.java:18)
+ myssm.filter.OpenSessionInViewFilter.doFilter(OpenSessionInViewFilter.java:21)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+ myssm.filter.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:27)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+ org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+ org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.base@11.0.21/java.lang.Thread.run(Thread.java:834)]
+20-Oct-2026 19:50:11.642 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 19:50:11.658 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+20-Oct-2026 19:50:59.421 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+20-Oct-2026 19:50:59.427 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+20-Oct-2026 19:50:59.427 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+20-Oct-2026 19:50:59.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+20-Oct-2026 19:50:59.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           14.7.4
+20-Oct-2026 19:50:59.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+20-Oct-2026 19:50:59.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Oct-2026 19:50:59.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.21+9-LTS-193
+20-Oct-2026 19:50:59.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+20-Oct-2026 19:50:59.428 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 19:50:59.429 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 19:50:59.446 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 19:50:59.446 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 19:50:59.446 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 19:50:59.447 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 19:50:59.447 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 19:50:59.447 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 19:50:59.447 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 19:50:59.447 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/temp
+20-Oct-2026 19:50:59.447 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/logging.properties
+20-Oct-2026 19:50:59.447 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 19:50:59.448 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=59525:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Oct-2026 19:50:59.448 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+20-Oct-2026 19:50:59.462 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/fuyuguang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+20-Oct-2026 19:50:59.919 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+20-Oct-2026 19:50:59.955 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[886]毫秒内初始化
+20-Oct-2026 19:51:00.035 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+20-Oct-2026 19:51:00.035 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+20-Oct-2026 19:51:00.047 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]。
+20-Oct-2026 19:51:01.723 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 19:51:01.802 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]的部署已在[1,752]ms内完成
+20-Oct-2026 19:51:01.806 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+20-Oct-2026 19:51:01.823 信息 [main] org.apache.catalina.startup.Catalina.start [1867]毫秒后服务器启动
+20-Oct-2026 19:51:11.216 信息 [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource.info {dataSource-1} inited
+20-Oct-2026 19:57:52.161 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload 重新加载上下文[]
+20-Oct-2026 19:57:52.174 信息 [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 已开始重新加载名为[]的上下文
+20-Oct-2026 19:57:52.354 警告 [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.alibaba.druid.proxy.DruidDriver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 19:57:52.357 警告 [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 19:57:52.358 警告 [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.21/java.lang.Thread.run(Thread.java:834)]
+20-Oct-2026 19:57:52.359 警告 [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Create-1137719141]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.21/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.21/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2885)]
+20-Oct-2026 19:57:52.359 警告 [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Destroy-1137719141]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2984)]
+20-Oct-2026 19:57:52.360 警告 [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[MySQL Statement Cancellation Timer]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.util.TimerThread.mainLoop(Timer.java:553)
+ java.base@11.0.21/java.util.TimerThread.run(Timer.java:506)]
+20-Oct-2026 19:57:54.073 信息 [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 19:57:54.147 信息 [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload 已完成重新加载名为[]的上下文
+20-Oct-2026 19:57:56.375 信息 [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading 非法访问：此Web应用程序实例已停止。无法加载[]。为了调试以及终止导致非法访问的线程，将抛出以下堆栈跟踪。
+	java.lang.IllegalStateException: 非法访问：此Web应用程序实例已停止。无法加载[]。为了调试以及终止导致非法访问的线程，将抛出以下堆栈跟踪。
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+20-Oct-2026 19:58:00.918 信息 [http-nio-8080-exec-7] com.alibaba.druid.pool.DruidDataSource.info {dataSource-1} inited
+20-Oct-2026 20:06:51.178 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+20-Oct-2026 20:06:51.211 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+20-Oct-2026 20:06:51.282 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.alibaba.druid.proxy.DruidDriver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 20:06:51.282 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 20:06:51.285 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.21/java.lang.Thread.run(Thread.java:834)]
+20-Oct-2026 20:06:51.287 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Create-1429812519]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.21/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.21/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2885)]
+20-Oct-2026 20:06:51.288 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Destroy-1429812519]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2984)]
+20-Oct-2026 20:06:51.290 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[MySQL Statement Cancellation Timer]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.util.TimerThread.mainLoop(Timer.java:553)
+ java.base@11.0.21/java.util.TimerThread.run(Timer.java:506)]
+20-Oct-2026 20:06:51.352 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 20:06:51.417 信息 [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading 非法访问：此Web应用程序实例已停止。无法加载[]。为了调试以及终止导致非法访问的线程，将抛出以下堆栈跟踪。
+	java.lang.IllegalStateException: 非法访问：此Web应用程序实例已停止。无法加载[]。为了调试以及终止导致非法访问的线程，将抛出以下堆栈跟踪。
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+20-Oct-2026 20:06:51.425 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+20-Oct-2026 20:07:05.460 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+20-Oct-2026 20:07:05.466 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+20-Oct-2026 20:07:05.466 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+20-Oct-2026 20:07:05.467 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+20-Oct-2026 20:07:05.467 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           14.7.4
+20-Oct-2026 20:07:05.467 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+20-Oct-2026 20:07:05.467 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Oct-2026 20:07:05.467 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.21+9-LTS-193
+20-Oct-2026 20:07:05.468 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+20-Oct-2026 20:07:05.468 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 20:07:05.468 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 20:07:05.486 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 20:07:05.486 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 20:07:05.486 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 20:07:05.487 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 20:07:05.487 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 20:07:05.487 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 20:07:05.487 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 20:07:05.487 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/temp
+20-Oct-2026 20:07:05.488 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/logging.properties
+20-Oct-2026 20:07:05.488 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 20:07:05.488 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=62160:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Oct-2026 20:07:05.488 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+20-Oct-2026 20:07:05.502 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/fuyuguang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+20-Oct-2026 20:07:06.047 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+20-Oct-2026 20:07:06.093 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[960]毫秒内初始化
+20-Oct-2026 20:07:06.190 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+20-Oct-2026 20:07:06.191 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+20-Oct-2026 20:07:06.211 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]。
+20-Oct-2026 20:07:07.835 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 20:07:07.974 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]的部署已在[1,761]ms内完成
+20-Oct-2026 20:07:07.979 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+20-Oct-2026 20:07:07.997 信息 [main] org.apache.catalina.startup.Catalina.start [1903]毫秒后服务器启动
+20-Oct-2026 20:07:16.994 信息 [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource.info {dataSource-1} inited
+20-Oct-2026 20:12:25.297 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+20-Oct-2026 20:12:25.326 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+20-Oct-2026 20:12:25.457 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.alibaba.druid.proxy.DruidDriver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 20:12:25.460 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 20:12:25.463 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.21/java.lang.Thread.run(Thread.java:834)]
+20-Oct-2026 20:12:25.463 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Create-1463701860]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.21/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.21/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2885)]
+20-Oct-2026 20:12:25.464 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Destroy-1463701860]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2984)]
+20-Oct-2026 20:12:25.465 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[MySQL Statement Cancellation Timer]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.util.TimerThread.mainLoop(Timer.java:553)
+ java.base@11.0.21/java.util.TimerThread.run(Timer.java:506)]
+20-Oct-2026 20:12:25.514 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 20:12:25.527 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+20-Oct-2026 20:15:07.037 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+20-Oct-2026 20:15:07.047 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+20-Oct-2026 20:15:07.047 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+20-Oct-2026 20:15:07.047 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+20-Oct-2026 20:15:07.048 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           14.7.4
+20-Oct-2026 20:15:07.048 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+20-Oct-2026 20:15:07.049 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Oct-2026 20:15:07.049 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.21+9-LTS-193
+20-Oct-2026 20:15:07.049 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+20-Oct-2026 20:15:07.050 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 20:15:07.050 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 20:15:07.073 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 20:15:07.073 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 20:15:07.073 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 20:15:07.073 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 20:15:07.073 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 20:15:07.074 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 20:15:07.074 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 20:15:07.074 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/temp
+20-Oct-2026 20:15:07.074 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/logging.properties
+20-Oct-2026 20:15:07.075 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 20:15:07.075 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=63434:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Oct-2026 20:15:07.075 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+20-Oct-2026 20:15:07.096 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/fuyuguang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+20-Oct-2026 20:15:07.592 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+20-Oct-2026 20:15:07.644 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1055]毫秒内初始化
+20-Oct-2026 20:15:07.799 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+20-Oct-2026 20:15:07.800 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+20-Oct-2026 20:15:07.817 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]。
+20-Oct-2026 20:15:09.486 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 20:15:09.646 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]的部署已在[1,826]ms内完成
+20-Oct-2026 20:15:09.651 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+20-Oct-2026 20:15:09.671 信息 [main] org.apache.catalina.startup.Catalina.start [2026]毫秒后服务器启动
+20-Oct-2026 20:15:24.872 信息 [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource.info {dataSource-1} inited
+20-Oct-2026 20:18:52.666 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+20-Oct-2026 20:18:52.676 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+20-Oct-2026 20:18:52.753 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.alibaba.druid.proxy.DruidDriver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 20:18:52.756 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 20:18:52.757 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.21/java.lang.Thread.run(Thread.java:834)]
+20-Oct-2026 20:18:52.759 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Create-2138421456]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.21/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.21/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2885)]
+20-Oct-2026 20:18:52.761 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Destroy-2138421456]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2984)]
+20-Oct-2026 20:18:52.762 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[MySQL Statement Cancellation Timer]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.util.TimerThread.mainLoop(Timer.java:553)
+ java.base@11.0.21/java.util.TimerThread.run(Timer.java:506)]
+20-Oct-2026 20:18:52.804 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 20:18:52.817 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+20-Oct-2026 20:19:10.131 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+20-Oct-2026 20:19:10.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+20-Oct-2026 20:19:10.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+20-Oct-2026 20:19:10.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+20-Oct-2026 20:19:10.140 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           14.7.4
+20-Oct-2026 20:19:10.140 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+20-Oct-2026 20:19:10.140 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Oct-2026 20:19:10.140 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.21+9-LTS-193
+20-Oct-2026 20:19:10.141 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+20-Oct-2026 20:19:10.141 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 20:19:10.141 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 20:19:10.163 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 20:19:10.163 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 20:19:10.164 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 20:19:10.164 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 20:19:10.164 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 20:19:10.164 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 20:19:10.165 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 20:19:10.165 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/temp
+20-Oct-2026 20:19:10.165 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/logging.properties
+20-Oct-2026 20:19:10.165 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 20:19:10.166 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=64076:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Oct-2026 20:19:10.166 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+20-Oct-2026 20:19:10.182 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/fuyuguang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+20-Oct-2026 20:19:10.619 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+20-Oct-2026 20:19:10.649 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[881]毫秒内初始化
+20-Oct-2026 20:19:10.730 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+20-Oct-2026 20:19:10.731 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+20-Oct-2026 20:19:10.741 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]。
+20-Oct-2026 20:19:12.409 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 20:19:12.551 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]的部署已在[1,807]ms内完成
+20-Oct-2026 20:19:12.556 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+20-Oct-2026 20:19:12.571 信息 [main] org.apache.catalina.startup.Catalina.start [1921]毫秒后服务器启动
+20-Oct-2026 20:19:21.712 信息 [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource.info {dataSource-1} inited
+20-Oct-2026 20:23:38.576 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+20-Oct-2026 20:23:38.600 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+20-Oct-2026 20:23:38.694 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.alibaba.druid.proxy.DruidDriver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 20:23:38.696 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 20:23:38.698 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.21/java.lang.Thread.run(Thread.java:834)]
+20-Oct-2026 20:23:38.699 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Create-520256296]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.21/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.21/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2885)]
+20-Oct-2026 20:23:38.699 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Destroy-520256296]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2984)]
+20-Oct-2026 20:23:38.699 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[MySQL Statement Cancellation Timer]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.util.TimerThread.mainLoop(Timer.java:553)
+ java.base@11.0.21/java.util.TimerThread.run(Timer.java:506)]
+20-Oct-2026 20:23:38.754 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 20:23:38.781 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+20-Oct-2026 20:23:59.643 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+20-Oct-2026 20:23:59.650 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+20-Oct-2026 20:23:59.650 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+20-Oct-2026 20:23:59.650 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+20-Oct-2026 20:23:59.650 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           14.7.4
+20-Oct-2026 20:23:59.651 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+20-Oct-2026 20:23:59.651 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Oct-2026 20:23:59.651 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.21+9-LTS-193
+20-Oct-2026 20:23:59.651 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+20-Oct-2026 20:23:59.652 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 20:23:59.652 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 20:23:59.667 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 20:23:59.667 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 20:23:59.668 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 20:23:59.668 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 20:23:59.668 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 20:23:59.668 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 20:23:59.668 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 20:23:59.669 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/temp
+20-Oct-2026 20:23:59.669 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/logging.properties
+20-Oct-2026 20:23:59.669 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 20:23:59.669 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=64855:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Oct-2026 20:23:59.669 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+20-Oct-2026 20:23:59.683 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/fuyuguang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+20-Oct-2026 20:24:00.164 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+20-Oct-2026 20:24:00.198 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[876]毫秒内初始化
+20-Oct-2026 20:24:00.274 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+20-Oct-2026 20:24:00.274 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+20-Oct-2026 20:24:00.286 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]。
+20-Oct-2026 20:24:01.998 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 20:24:02.139 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]的部署已在[1,850]ms内完成
+20-Oct-2026 20:24:02.144 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+20-Oct-2026 20:24:02.161 信息 [main] org.apache.catalina.startup.Catalina.start [1962]毫秒后服务器启动
+20-Oct-2026 20:24:21.774 信息 [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource.info {dataSource-1} inited
+20-Oct-2026 20:27:47.278 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+20-Oct-2026 20:27:47.302 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+20-Oct-2026 20:27:47.373 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.alibaba.druid.proxy.DruidDriver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 20:27:47.374 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 20:27:47.376 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.21/java.lang.Thread.run(Thread.java:834)]
+20-Oct-2026 20:27:47.377 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Create-313752769]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.21/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.21/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2885)]
+20-Oct-2026 20:27:47.378 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Destroy-313752769]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2984)]
+20-Oct-2026 20:27:47.379 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[MySQL Statement Cancellation Timer]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.util.TimerThread.mainLoop(Timer.java:553)
+ java.base@11.0.21/java.util.TimerThread.run(Timer.java:506)]
+20-Oct-2026 20:27:47.401 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 20:27:47.419 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+20-Oct-2026 20:29:34.869 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+20-Oct-2026 20:29:34.876 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+20-Oct-2026 20:29:34.876 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+20-Oct-2026 20:29:34.876 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+20-Oct-2026 20:29:34.876 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           14.7.4
+20-Oct-2026 20:29:34.877 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+20-Oct-2026 20:29:34.877 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Oct-2026 20:29:34.877 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.21+9-LTS-193
+20-Oct-2026 20:29:34.877 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+20-Oct-2026 20:29:34.878 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 20:29:34.878 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 20:29:34.897 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 20:29:34.897 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 20:29:34.897 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 20:29:34.897 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 20:29:34.898 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 20:29:34.898 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 20:29:34.898 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 20:29:34.898 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/temp
+20-Oct-2026 20:29:34.899 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/logging.properties
+20-Oct-2026 20:29:34.899 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 20:29:34.899 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49384:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Oct-2026 20:29:34.900 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+20-Oct-2026 20:29:34.914 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/fuyuguang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+20-Oct-2026 20:29:35.400 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+20-Oct-2026 20:29:35.432 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[948]毫秒内初始化
+20-Oct-2026 20:29:35.509 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+20-Oct-2026 20:29:35.510 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+20-Oct-2026 20:29:35.522 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]。
+20-Oct-2026 20:29:37.209 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 20:29:37.343 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]的部署已在[1,819]ms内完成
+20-Oct-2026 20:29:37.348 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+20-Oct-2026 20:29:37.364 信息 [main] org.apache.catalina.startup.Catalina.start [1932]毫秒后服务器启动
+20-Oct-2026 20:29:51.400 信息 [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource.info {dataSource-1} inited
+20-Oct-2026 20:40:20.998 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+20-Oct-2026 20:40:21.018 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+20-Oct-2026 20:40:21.098 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.alibaba.druid.proxy.DruidDriver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 20:40:21.099 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 20:40:21.101 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.21/java.lang.Thread.run(Thread.java:834)]
+20-Oct-2026 20:40:21.101 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Create-520256296]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.21/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.21/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2885)]
+20-Oct-2026 20:40:21.102 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Destroy-520256296]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2984)]
+20-Oct-2026 20:40:21.102 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[MySQL Statement Cancellation Timer]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.util.TimerThread.mainLoop(Timer.java:553)
+ java.base@11.0.21/java.util.TimerThread.run(Timer.java:506)]
+20-Oct-2026 20:40:21.163 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 20:40:21.178 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+20-Oct-2026 20:40:30.132 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+20-Oct-2026 20:40:30.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+20-Oct-2026 20:40:30.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+20-Oct-2026 20:40:30.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+20-Oct-2026 20:40:30.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           14.7.4
+20-Oct-2026 20:40:30.140 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+20-Oct-2026 20:40:30.140 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Oct-2026 20:40:30.140 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.21+9-LTS-193
+20-Oct-2026 20:40:30.140 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+20-Oct-2026 20:40:30.140 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 20:40:30.141 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 20:40:30.158 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 20:40:30.158 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 20:40:30.158 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 20:40:30.159 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 20:40:30.159 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 20:40:30.159 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 20:40:30.159 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 20:40:30.159 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/temp
+20-Oct-2026 20:40:30.159 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/logging.properties
+20-Oct-2026 20:40:30.159 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 20:40:30.160 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=52884:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Oct-2026 20:40:30.160 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+20-Oct-2026 20:40:30.175 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/fuyuguang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+20-Oct-2026 20:40:30.682 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+20-Oct-2026 20:40:30.742 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[957]毫秒内初始化
+20-Oct-2026 20:40:30.863 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+20-Oct-2026 20:40:30.863 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+20-Oct-2026 20:40:30.880 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]。
+20-Oct-2026 20:40:32.517 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 20:40:32.657 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]的部署已在[1,775]ms内完成
+20-Oct-2026 20:40:32.663 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+20-Oct-2026 20:40:32.680 信息 [main] org.apache.catalina.startup.Catalina.start [1938]毫秒后服务器启动
+20-Oct-2026 20:40:43.102 信息 [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource.info {dataSource-1} inited
+20-Oct-2026 20:54:45.184 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+20-Oct-2026 20:54:45.245 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+20-Oct-2026 20:54:45.376 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.alibaba.druid.proxy.DruidDriver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 20:54:45.378 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 20:54:45.382 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.21/java.lang.Thread.run(Thread.java:834)]
+20-Oct-2026 20:54:45.383 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Create-1387786505]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.21/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.21/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2885)]
+20-Oct-2026 20:54:45.384 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Destroy-1387786505]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2984)]
+20-Oct-2026 20:54:45.384 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[MySQL Statement Cancellation Timer]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.util.TimerThread.mainLoop(Timer.java:553)
+ java.base@11.0.21/java.util.TimerThread.run(Timer.java:506)]
+20-Oct-2026 20:54:45.430 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 20:54:45.452 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+20-Oct-2026 20:55:03.705 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+20-Oct-2026 20:55:03.711 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+20-Oct-2026 20:55:03.711 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+20-Oct-2026 20:55:03.711 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+20-Oct-2026 20:55:03.711 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           14.7.4
+20-Oct-2026 20:55:03.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+20-Oct-2026 20:55:03.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Oct-2026 20:55:03.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.21+9-LTS-193
+20-Oct-2026 20:55:03.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+20-Oct-2026 20:55:03.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 20:55:03.712 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 20:55:03.729 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 20:55:03.730 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 20:55:03.730 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 20:55:03.730 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 20:55:03.730 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 20:55:03.731 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 20:55:03.731 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 20:55:03.731 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/temp
+20-Oct-2026 20:55:03.732 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/logging.properties
+20-Oct-2026 20:55:03.732 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 20:55:03.732 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=55150:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Oct-2026 20:55:03.732 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+20-Oct-2026 20:55:03.748 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/fuyuguang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+20-Oct-2026 20:55:04.292 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+20-Oct-2026 20:55:04.329 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[935]毫秒内初始化
+20-Oct-2026 20:55:04.406 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+20-Oct-2026 20:55:04.407 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+20-Oct-2026 20:55:04.417 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]。
+20-Oct-2026 20:55:06.723 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 20:55:07.109 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]的部署已在[2,689]ms内完成
+20-Oct-2026 20:55:07.117 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+20-Oct-2026 20:55:07.141 信息 [main] org.apache.catalina.startup.Catalina.start [2811]毫秒后服务器启动
+20-Oct-2026 20:55:16.198 信息 [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource.info {dataSource-1} inited
+20-Oct-2026 21:00:38.547 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+20-Oct-2026 21:00:38.561 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+20-Oct-2026 21:00:38.638 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.alibaba.druid.proxy.DruidDriver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 21:00:38.641 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 21:00:38.642 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.21/java.lang.Thread.run(Thread.java:834)]
+20-Oct-2026 21:00:38.643 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Create-637415243]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.21/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.21/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2885)]
+20-Oct-2026 21:00:38.643 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Destroy-637415243]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2984)]
+20-Oct-2026 21:00:38.644 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[MySQL Statement Cancellation Timer]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.util.TimerThread.mainLoop(Timer.java:553)
+ java.base@11.0.21/java.util.TimerThread.run(Timer.java:506)]
+20-Oct-2026 21:00:38.663 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 21:00:38.672 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+20-Oct-2026 21:01:04.815 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+20-Oct-2026 21:01:04.827 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+20-Oct-2026 21:01:04.828 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+20-Oct-2026 21:01:04.828 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+20-Oct-2026 21:01:04.828 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           14.7.4
+20-Oct-2026 21:01:04.828 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+20-Oct-2026 21:01:04.829 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Oct-2026 21:01:04.829 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.21+9-LTS-193
+20-Oct-2026 21:01:04.829 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+20-Oct-2026 21:01:04.830 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 21:01:04.830 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 21:01:04.857 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 21:01:04.858 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 21:01:04.858 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 21:01:04.859 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 21:01:04.859 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 21:01:04.859 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 21:01:04.860 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 21:01:04.860 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/temp
+20-Oct-2026 21:01:04.860 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/logging.properties
+20-Oct-2026 21:01:04.860 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 21:01:04.861 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=56099:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Oct-2026 21:01:04.861 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+20-Oct-2026 21:01:04.909 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/fuyuguang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+20-Oct-2026 21:01:06.235 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+20-Oct-2026 21:01:06.347 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[2057]毫秒内初始化
+20-Oct-2026 21:01:06.766 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+20-Oct-2026 21:01:06.766 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+20-Oct-2026 21:01:06.782 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]。
+20-Oct-2026 21:01:08.807 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 21:01:08.947 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]的部署已在[2,163]ms内完成
+20-Oct-2026 21:01:08.952 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+20-Oct-2026 21:01:08.968 信息 [main] org.apache.catalina.startup.Catalina.start [2620]毫秒后服务器启动
+20-Oct-2026 21:01:14.179 信息 [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource.info {dataSource-1} inited
+20-Oct-2026 21:10:26.700 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+20-Oct-2026 21:10:26.733 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+20-Oct-2026 21:10:26.826 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.alibaba.druid.proxy.DruidDriver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 21:10:26.826 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 21:10:26.828 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.21/java.lang.Thread.run(Thread.java:834)]
+20-Oct-2026 21:10:26.829 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Create-535082323]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.21/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.21/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2885)]
+20-Oct-2026 21:10:26.830 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Destroy-535082323]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2984)]
+20-Oct-2026 21:10:26.831 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[MySQL Statement Cancellation Timer]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.util.TimerThread.mainLoop(Timer.java:553)
+ java.base@11.0.21/java.util.TimerThread.run(Timer.java:506)]
+20-Oct-2026 21:10:26.879 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 21:10:26.897 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+20-Oct-2026 21:13:34.445 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+20-Oct-2026 21:13:34.455 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+20-Oct-2026 21:13:34.456 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+20-Oct-2026 21:13:34.456 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+20-Oct-2026 21:13:34.456 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           14.7.4
+20-Oct-2026 21:13:34.457 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+20-Oct-2026 21:13:34.457 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Oct-2026 21:13:34.457 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.21+9-LTS-193
+20-Oct-2026 21:13:34.458 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+20-Oct-2026 21:13:34.458 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 21:13:34.458 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 21:13:34.487 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 21:13:34.487 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 21:13:34.487 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 21:13:34.488 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 21:13:34.488 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 21:13:34.488 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 21:13:34.489 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 21:13:34.489 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/temp
+20-Oct-2026 21:13:34.489 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/logging.properties
+20-Oct-2026 21:13:34.490 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 21:13:34.490 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=58099:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Oct-2026 21:13:34.490 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+20-Oct-2026 21:13:34.523 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/fuyuguang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+20-Oct-2026 21:13:35.230 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+20-Oct-2026 21:13:35.306 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1210]毫秒内初始化
+20-Oct-2026 21:13:35.406 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+20-Oct-2026 21:13:35.406 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+20-Oct-2026 21:13:35.419 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]。
+20-Oct-2026 21:13:37.198 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 21:13:37.345 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]的部署已在[1,923]ms内完成
+20-Oct-2026 21:13:37.350 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+20-Oct-2026 21:13:37.366 信息 [main] org.apache.catalina.startup.Catalina.start [2059]毫秒后服务器启动
+20-Oct-2026 21:13:57.853 信息 [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource.info {dataSource-1} inited
+20-Oct-2026 21:23:13.766 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+20-Oct-2026 21:23:13.797 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+20-Oct-2026 21:23:13.963 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.alibaba.druid.proxy.DruidDriver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 21:23:13.963 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 21:23:13.965 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.21/java.lang.Thread.run(Thread.java:834)]
+20-Oct-2026 21:23:13.966 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Create-781874836]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.21/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.21/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2885)]
+20-Oct-2026 21:23:13.967 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Destroy-781874836]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2984)]
+20-Oct-2026 21:23:13.967 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[MySQL Statement Cancellation Timer]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.util.TimerThread.mainLoop(Timer.java:553)
+ java.base@11.0.21/java.util.TimerThread.run(Timer.java:506)]
+20-Oct-2026 21:23:14.050 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 21:23:14.069 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+20-Oct-2026 21:23:30.480 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.85
+20-Oct-2026 21:23:30.519 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jan 5 2024 08:28:07 UTC
+20-Oct-2026 21:23:30.519 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.85.0
+20-Oct-2026 21:23:30.520 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+20-Oct-2026 21:23:30.520 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           14.7.4
+20-Oct-2026 21:23:30.521 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+20-Oct-2026 21:23:30.521 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home
+20-Oct-2026 21:23:30.521 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.21+9-LTS-193
+20-Oct-2026 21:23:30.522 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+20-Oct-2026 21:23:30.522 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 21:23:30.522 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 21:23:30.551 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Oct-2026 21:23:30.552 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+20-Oct-2026 21:23:30.553 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+20-Oct-2026 21:23:30.553 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Oct-2026 21:23:30.553 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Oct-2026 21:23:30.554 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/fuyuguang/Desktop/flh_repository/fulihua_download/apache-tomcat-9.0.85
+20-Oct-2026 21:23:30.554 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book
+20-Oct-2026 21:23:30.554 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/temp
+20-Oct-2026 21:23:30.555 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/logging.properties
+20-Oct-2026 21:23:30.555 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2026 21:23:30.555 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=60287:/Applications/IntelliJ IDEA CE.app/Contents/bin
+20-Oct-2026 21:23:30.555 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dfile.encoding=UTF-8
+20-Oct-2026 21:23:30.582 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/fuyuguang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+20-Oct-2026 21:23:31.162 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+20-Oct-2026 21:23:31.200 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1194]毫秒内初始化
+20-Oct-2026 21:23:31.315 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+20-Oct-2026 21:23:31.315 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.85]
+20-Oct-2026 21:23:31.330 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 正在部署部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]。
+20-Oct-2026 21:23:33.281 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+20-Oct-2026 21:23:33.450 信息 [main] org.apache.catalina.startup.HostConfig.deployDescriptor 部署描述符[/Users/fuyuguang/Desktop/flh_repository/JavaWeb_MySQL/JavaWeb-repo/JavaWeb_practice/pro19-book/conf/Catalina/localhost/ROOT.xml]的部署已在[2,118]ms内完成
+20-Oct-2026 21:23:33.457 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+20-Oct-2026 21:23:33.485 信息 [main] org.apache.catalina.startup.Catalina.start [2285]毫秒后服务器启动
+20-Oct-2026 21:23:52.181 信息 [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource.info {dataSource-1} inited
+20-Oct-2026 21:26:18.109 信息 [Thread-1] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+20-Oct-2026 21:26:18.125 信息 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+20-Oct-2026 21:26:18.196 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.alibaba.druid.proxy.DruidDriver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 21:26:18.196 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 注册了JDBC驱动程序 [com.mysql.cj.jdbc.Driver]，但在Web应用程序停止时无法注销它。 为防止内存泄漏，JDBC驱动程序已被强制取消注册。
+20-Oct-2026 21:26:18.197 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.21/java.lang.Thread.run(Thread.java:834)]
+20-Oct-2026 21:26:18.198 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Create-9279456]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.21/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.21/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2885)]
+20-Oct-2026 21:26:18.198 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[Druid-ConnectionPool-Destroy-9279456]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2984)]
+20-Oct-2026 21:26:18.199 警告 [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[MySQL Statement Cancellation Timer]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.21/java.lang.Object.wait(Native Method)
+ java.base@11.0.21/java.util.TimerThread.mainLoop(Timer.java:553)
+ java.base@11.0.21/java.util.TimerThread.run(Timer.java:506)]
+20-Oct-2026 21:26:18.220 信息 [Thread-1] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+20-Oct-2026 21:26:18.232 信息 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
