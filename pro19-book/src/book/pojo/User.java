@@ -19,6 +19,10 @@ public class User {
     public User() {
     }
 
+    public User(Integer id) {
+        this.id = id;
+    }
+
     public User(Integer id, String uname, String pwd, String email, Integer role) {
         this.id = id;
         this.uname = uname;
@@ -27,8 +31,8 @@ public class User {
         this.role = role;
     }
 
-    public User(String name, String pwd, String email) {
-        this.uname = name;
+    public User(String uname, String pwd, String email) {
+        this.uname = uname;
         this.pwd = pwd;
         this.email = email;
         this.role = 0;//0表示普通用户，1表示管理员
@@ -42,11 +46,11 @@ public class User {
         this.id = id;
     }
 
-    public String getName() {
+    public String getUname() {
         return uname;
     }
 
-    public void setName(String name) {
+    public void setUname(String uname) {
         this.uname = uname;
     }
 
@@ -86,7 +90,7 @@ public class User {
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", name='" + uname + '\'' +
+                ", uname='" + uname + '\'' +
                 ", pwd='" + pwd + '\'' +
                 ", email='" + email + '\'' +
                 ", role=" + role +
@@ -97,4 +101,12 @@ public class User {
     public void setOrderBeanList(List<OrderBean> orderBeanList) {
         this.orderBeanList = orderBeanList;
     }
+
+    public List<OrderBean> getOrderBeanList() {
+        return orderBeanList;
+    }
+    public String getName() {
+        return uname;
+    }//这里多加了一个是由于之前的别名的疏忽，方法名写的是getName()方法，正确的应该为getUname()方法，但是前端页面好多地方都用到了
+    //.name（.getName())方法，为了方便我直接加了一个方法。
 }

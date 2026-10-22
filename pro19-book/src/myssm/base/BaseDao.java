@@ -184,7 +184,8 @@ public abstract class BaseDao<T> {
                 T instance = (T)ClassUtil.createInstance(entityClassName);
                 for(int i = 1;i<=columnCount;i++){
                     //获取列名，其实我们特意将列名和属性名保持一致，就是为了此处的反射赋值
-                    String columnName = rsmd.getColumnName(i);
+                    String rowcolumn= rsmd.getColumnLabel(i);
+                    String columnName =ClassUtil.underLineToCamel(rowcolumn);
                     Object columnValue = rs.getObject(i);
                     ClassUtil.setProperty(instance,columnName,columnValue);
                 }
@@ -213,7 +214,8 @@ public abstract class BaseDao<T> {
                 T instance = (T)ClassUtil.createInstance(entityClassName);
                 for(int i = 1;i<=columnCount;i++){
                     //获取列名，其实我们特意将列名和属性名保持一致，就是为了此处的反射赋值
-                    String columnName = rsmd.getColumnName(i);
+                    String rowcolumn= rsmd.getColumnLabel(i);
+                    String columnName =ClassUtil.underLineToCamel(rowcolumn);
                     Object columnValue = rs.getObject(i);
                     ClassUtil.setProperty(instance,columnName,columnValue);
                 }

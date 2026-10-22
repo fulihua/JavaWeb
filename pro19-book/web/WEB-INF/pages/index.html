@@ -4,11 +4,7 @@
   <span th:replace="common/head::head"></span>
   <link rel="stylesheet" th:href="@{/static/css/index.css}" />
   <link rel="stylesheet" th:href="@{/static/css/swiper.min.css}" />
-  <script type="text/javascript">
-        function addToCart(id){
-            window.location.href="cart.do?oper=addToCart&id="+id;
-        }
-    </script>
+
 </head>
 <body>
 <div id="app">
@@ -138,14 +134,20 @@
         <div class="list-content">
           <div class="list-item" th:each="book : ${session.bookList}" th:object="${book}">
             <span th:text="${book.bookImg}"></span>
-            <img th:src="@{|/static/uploads/${bookImg}|}" alt="">
-            <img th:src="@{|/static/uploads/${bookImg}|}" alt="">
+            <img th:src="@{/static/uploads/}+${book.bookImg}" alt="">
             <p th:text="|书名:*{bookName}|">书名:活着</p>
             <p th:text="|作者:*{author}|">作者:余华</p>
             <p th:text="|价格:*{price}|">价格:￥66.6</p>
             <p th:text="|销量:*{saleCount}|">销量:230</p>
             <p th:text="|库存:*{bookCount}|">库存:1000</p>
-            <button th:onclick="|addToCart(*{id})|">加入购物车</button>
+            <p>DEBUG‑bookId：[[*{id}]]</p>
+            <form th:action="@{cart.do}" method="get">
+              <input type="hidden" name="oper" value="addToCart">
+              <input type="hidden" name="id" th:value="*{id}">
+              <button type="submit" class="add-cart-btn">加入购物车</button>
+            </form>
+
+
           </div>
         </div>
         <div class="list-footer">

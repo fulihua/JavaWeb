@@ -11,6 +11,8 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
+import java.util.Arrays;
+import java.util.Map;
 
 /**
  * @author fulihua
@@ -21,6 +23,7 @@ import java.lang.reflect.Parameter;
 //@WebServlet("*.do")
 public class DispatcherServlet extends ViewBaseServlet {
     private BeanFactory beanFactory;
+
     @Override
     public void init() throws ServletException{
         super.init();//这句话不能省略，因为父类的初始化方法中也有操作，需要创建模版引擎对象
@@ -30,9 +33,6 @@ public class DispatcherServlet extends ViewBaseServlet {
 
     @Override
     protected  void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("【Dispatcher】收到请求 uname=" + request.getParameter("uname"));
-
-
         request.setCharacterEncoding("UTF-8");
         //假设访问的URL是： http://localhost/fruit.do?id=9&fname=apple&price=10
         //String uri = request.getRequestURI();
@@ -41,6 +41,16 @@ public class DispatcherServlet extends ViewBaseServlet {
 
         //假设访问的是 /fruit.do
         //取出其中的字符串： fruit -> fruitController
+        // 请求进来第一行就加这个打印
+        System.out.println("====全部请求参数====");
+        Map<String,String[]> map = request.getParameterMap();
+        for(Map.Entry<String,String[]> entry : map.entrySet()){
+            System.out.println(entry.getKey() + " = " + Arrays.toString(entry.getValue()));
+        }
+        System.out.println("==================");
+
+        System.out.println("【Dispatcher】收到请求 uname=" + request.getParameter("uname"));
+
         String uri = request.getRequestURI();
         uri = uri.substring(1); // fruit.do
         int lastIndexDotIndex = uri.lastIndexOf(".do");
@@ -87,7 +97,8 @@ public class DispatcherServlet extends ViewBaseServlet {
                         if(HttpServletRequest.class.isAssignableFrom(paramClass)) {
                             parameterValue=request;
                         }else if(HttpSession.class.isAssignableFrom(paramClass)) {
-                            parameterValue=request.getSession();
+                            parameterValue=request.getSession();//`request.getSession()`等价于`request.getSession(true)`！！！找不到就新建！
+                            //session是Dispatcher注入进来的，底层执行过 request.getSession(true)，有新建风险,新建了之后和我们在页面上拿到的就不是同一个session了
                         }else if(HttpServletResponse.class.isAssignableFrom(paramClass)) {
                             parameterValue=response;
                         }else{
@@ -110,7 +121,6 @@ public class DispatcherServlet extends ViewBaseServlet {
                                             break;
                                     }
                                 }
-                                break;
 
                         }
 
@@ -133,8 +143,8 @@ public class DispatcherServlet extends ViewBaseServlet {
                     return;
                 } catch (Exception e) {
                     e.printStackTrace();
-                    throw new RuntimeException("找不到" + oper + "对应的方法或者执行" + oper + "对应的方法出错！");
-                }
+                    response.sendRedirect("book.do");
+                    return;                }
             }
         }
     }

@@ -15,7 +15,7 @@ import java.util.List;
 public class CartItemDaoImpl extends BaseDao<CartItem> implements CartItemDao {
     @Override
     public List<CartItem> getCartItemList(Integer userId) {
-        return executeQuery("select * from t_cart where id = ?",userId);
+        return executeQuery("select * from t_cart where user = ?",userId);
     }
 
     @Override

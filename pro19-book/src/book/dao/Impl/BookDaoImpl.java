@@ -24,6 +24,6 @@ public class BookDaoImpl extends BaseDao<Book> implements BookDao {
 
     @Override
     public void updateBook(Book book) {
-        executeUpdate("update t_book set saleCount = ?,bookCount = ?,where id = ?",book.getSaleCount(),book.getBookCount(),book.getId());
+        executeUpdate("update t_book set saleCount = ?,bookCount = ? where id = ?",book.getSaleCount(),book.getBookCount(),book.getId());
     }
 }

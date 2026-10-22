@@ -27,13 +27,16 @@
     </bean>
     <bean id="cartItemService" class="book.service.Impl.CartItemServiceImpl">
         <property name="cartItemDao" ref="cartItemDao"></property>
+        <property name="bookDao" ref="bookDao"></property>
     </bean>
     <bean id="orderBeanService" class="book.service.Impl.OrderBeanServiceImpl">
         <property name="orderBeanDao" ref="orderBeanDao"></property>
     </bean>
+
     <bean id="orderDetailService" class="book.service.Impl.OrderDetailServiceImpl">
         <property name="orderDetailDao" ref="orderDetailDao"></property>
     </bean>
+
     <!--3.controller-->
     <bean id="book" class="book.controller.BookController">
         <property name="bookService" ref="bookService"></property>

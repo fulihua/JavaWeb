@@ -1,6 +1,8 @@
 package book.service.Impl;
 
+import book.dao.BookDao;
 import book.dao.CartItemDao;
+import book.pojo.Book;
 import book.pojo.Cart;
 import book.pojo.CartItem;
 import book.pojo.User;
@@ -17,6 +19,7 @@ import java.util.Map;
  */
 public class CartItemServiceImpl implements CartItemService {
     private CartItemDao cartItemDao;
+    private BookDao bookDao;
     @Override
     public List<CartItem> getCartItemList(Integer userId) {
         return cartItemDao.getCartItemList(userId);
@@ -41,9 +44,14 @@ public class CartItemServiceImpl implements CartItemService {
     public void getCartInfo(User user) {
         List<CartItem> list = getCartItemList(user.getId());
         Map<Integer,CartItem> cartItemMap = new HashMap<>();
-        list.forEach(cartItem ->{
+        for(CartItem cartItem:list){
+            if(cartItem != null && cartItem.getBook() != null){
+                Book book = bookDao.getBook(cartItem.getBook().getId());
+                if(book!=null){
+                cartItem.setBook(book);}
             cartItemMap.put(cartItem.getBook().getId(),cartItem);
-        });
+            }
+        }
         Cart cart = new Cart(cartItemMap);
         user.setCart(cart);
     }

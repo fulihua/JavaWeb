@@ -16,6 +16,10 @@ public class OrderDetail {
     public OrderDetail() {
     }
 
+    public OrderDetail(Integer id) {
+        this.id = id;
+    }
+
     public OrderDetail(Integer id, Book book, String bookName, Double price, Integer buyCount, OrderBean orderBean) {
         this.id = id;
         this.book = book;

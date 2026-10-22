@@ -33,8 +33,17 @@ public class CartController {
     3.将用户点击的这本书加入到购物车中，如果车中已经存在这本书，则update，反之则insert
      */
 
-    public String addToCart(Integer id, HttpSession session, HttpServletResponse response)throws IOException {
-        User user = (User)session.getAttribute("currUser");
+    public String addToCart(Integer id,HttpServletRequest request, HttpServletResponse response)throws IOException {
+        // 不要直接用参数session！！自己从request获取
+        HttpSession sess = request.getSession(false);
+        if(sess == null || sess.getAttribute("currUser") == null){
+            return "redirect:user.do?oper=toLogin";
+        }
+        if(id == null){
+            System.out.println("错误：id参数为空！");
+            return "redirect:book.do";
+        }
+        User user = (User)sess.getAttribute("currUser");
         cartItemService.getCartInfo(user);
         Map<Integer,CartItem> cartItemMap = user.getCart().getCartItemMap();
 
@@ -48,14 +57,34 @@ public class CartController {
                     Book book = bookService.getBook(id);
                     CartItem cartItem = new CartItem(book,book.getBookName(),book.getPrice(),1,user);
                     cartItemService.addCartItem(cartItem);
+                    System.out.println("准备加入的bookId：" + id);
+                    System.out.println("当前map里面所有key：" + cartItemMap.keySet());
+
                 }
-                return "redirect:cart.do";
+                return "redirect:book.do";
         }
 
-    public String index(HttpSession session,HttpServletResponse response) throws IOException{
-            User user = (User)session.getAttribute("currUser");
-            cartItemService.getCartInfo(user);
-            return "cart/cart";
+    public String index(HttpServletRequest request, HttpServletResponse response) throws IOException{
+        HttpSession sess = request.getSession(false);
+        if(sess == null || sess.getAttribute("currUser") == null){
+            return "redirect:user.do?oper=toLogin";
         }
+        User user = (User)sess.getAttribute("currUser");
+        cartItemService.getCartInfo(user);
+        return "cart/cart";
     }
+    public String delCartItem(Integer id,HttpSession session){
+        User user = (User)session.getAttribute("currUser");
+        if(user==null){
+            return "redirect:user.do?oper=login";
+        }
+        Cart cart = user.getCart();
+        if(cart!=null&&cart.getCartItemMap().containsKey(id)){
+            CartItem cartItem = cart.getCartItemMap().get(id);
+            cartItemService.delCartItem(cartItem);
+            cart.getCartItemMap().remove(id);
+        }
+        return "redirect:cart.do";
+    }
+}
 

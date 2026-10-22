@@ -1,63 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-<meta charset="UTF-8">
-<title>结算页面</title>
-<link type="text/css" rel="stylesheet" href="../../static/css/style.css" >
-	<link rel="stylesheet" href="../../static/css/minireset.css" />
-	<link rel="stylesheet" href="../../static/css/common.css" />
-	<link rel="stylesheet" href="../../static/css/cart.css" />
-<style type="text/css">
-	h1 {
-		text-align: center;
-		margin-top: 200px;
-		font-size: 26px;
-	}
-	.oid{
-		color: red;
-		font-weight: bolder;
-	}
-</style>
+	<meta charset="UTF-8">
+	<title>结算页面</title>
+	<!-- 引入 CSS 样式 -->
+	<link type="text/css" rel="stylesheet" th:href="@{/static/css/style.css}" >
+	<link rel="stylesheet" th:href="@{/static/css/minireset.css}" />
+	<link rel="stylesheet" th:href="@{/static/css/common.css}" />
+	<link rel="stylesheet" th:href="@{/static/css/cart.css}" />
+	<style type="text/css">
+		h1 {
+			text-align: center;
+			margin-top: 200px;
+			font-size: 26px;
+		}
+		.oid{
+			color: red;
+			font-weight: bolder;
+		}
+	</style>
 </head>
 <body>
-	
-<!--	<div id="header">-->
-<!--			<img class="logo_img" alt="" src="../../static/img/logo.gif" >-->
-<!--			<span class="wel_word">结算</span>-->
-<!--			<div>-->
-<!--				<span>欢迎<span class="um_span">张总</span>光临尚硅谷书城</span>-->
-<!--				<a href="../order/order.html">我的订单</a>-->
-<!--				<a href="../../index.html">注销</a>&nbsp;&nbsp;-->
-<!--				<a href="../../index.html">返回</a>-->
-<!--			</div>-->
-<!--	</div>-->
-		<div class="header">
-			<div class="w">
-				<div class="header-left">
-					<a href="../../index.html">
-						<img src="../../static/img/logo.gif" alt=""
-						/></a>
-					<span>我的购物车</span>
-				</div>
-				<div class="header-right">
-					<h3>欢迎<span>张总</span>光临尚硅谷书城</h3>
-					<div class="order"><a href="../order/order.html">我的订单</a></div>
-					<div class="destory"><a href="../../index.html">注销</a></div>
-					<div class="gohome">
-						<a href="../index.html">返回</a>
-					</div>
-				</div>
+<div class="header">
+	<div class="w">
+		<div class="header-left">
+			<!-- 点击 logo 返回首页 -->
+			<a th:href="@{/book.do}">
+				<img th:src="@{/static/img/logo.gif}" alt="" />
+			</a>
+			<span>我的购物车</span>
+		</div>
+		<div class="header-right">
+			<h3>欢迎<span>张总</span>光临尚硅谷书城</h3>
+			<!-- 跳转到订单列表 -->
+			<div class="order"><a th:href="@{/orderBean.do(oper='index')}">我的订单</a></div>
+			<!-- 注销 -->
+			<div class="destory"><a th:href="@{/user.do(oper='logout')}">注销</a></div>
+			<!-- 返回图书列表 -->
+			<div class="gohome">
+				<a th:href="@{/book.do}">返回</a>
 			</div>
 		</div>
-	
-	<div id="main">
-		<h1>你的订单已结算，订单号为:<span class="oid">546845626455846</span></h1>
 	</div>
+</div>
 
-	<div id="bottom">
+<div id="main">
+	<!-- 订单号直接写死在这里 -->
+	<h1>你的订单已结算，订单号为:<span class="oid">546845626455846</span></h1>
+</div>
+
+<div id="bottom">
 		<span>
 			尚硅谷书城.Copyright &copy;2015
 		</span>
-	</div>
+</div>
 </body>
 </html>

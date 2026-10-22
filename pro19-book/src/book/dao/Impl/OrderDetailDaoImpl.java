@@ -12,6 +12,6 @@ import myssm.base.BaseDao;
 public class OrderDetailDaoImpl extends BaseDao<OrderDetail> implements OrderDetailDao {
     @Override
     public void addOrderDetail(OrderDetail orderDetail) {
-        executeUpdate("insert into t_order_detail values(0,?,?,?,?,?",orderDetail.getBook(),orderDetail.getBookName(),orderDetail.getPrice(),orderDetail.getBuyCount(),orderDetail.getOrderBean().getId());
+        executeUpdate("insert into t_order_detail values(0,?,?,?,?,?)",orderDetail.getBook().getId(),orderDetail.getBookName(),orderDetail.getPrice(),orderDetail.getBuyCount(),orderDetail.getOrderBean().getId());
     }
 }

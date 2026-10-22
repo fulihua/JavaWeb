@@ -16,6 +16,10 @@ public class CartItem {
     public CartItem() {
     }
 
+    public CartItem(Integer id) {
+        this.id = id;
+    }
+
     public CartItem(Integer id, Book book, String bookName, Double price, Integer buyCount, User user) {
         this.id = id;
         this.book = book;

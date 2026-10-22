@@ -18,6 +18,10 @@ public class Book {
     public Book() {
     }
 
+    public Book(Integer id) {
+        this.id = id;
+    }
+
     public Book(Integer id, String bookName, String author, Double price, Integer saleCount, Integer bookCount, String bookImg, Integer status) {
         this.id = id;
         this.bookName = bookName;

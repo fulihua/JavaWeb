@@ -41,17 +41,11 @@ public class UserController {
         }
     }
 
-    public String logOut(HttpSession session, HttpServletResponse response) throws IOException {
+    public String logout(HttpSession session, HttpServletResponse response) throws IOException {
         //session默认有效时长是30分钟
         //session.setMaxInactiveInterval(60*5);//设置session的有效时长是5分钟
         session.invalidate();//强制让当前session失效
-
-        response.setCharacterEncoding("UTF-8");
-        response.setContentType("text/html;charset=utf-8");
-        PrintWriter out = response.getWriter();
-        out.println("<script>alert('注销成功！');window.location.href='book.do';</script>");
-        out.flush();
-        return null;
+        return "redirect:user.do?oper=toLogin";
     }
     public String regist(String uname,String pwd,String email,String yourCode,HttpSession session,HttpServletResponse response) throws IOException{
         String code = (String) session.getAttribute(KAPTCHA_SESSION_KEY);

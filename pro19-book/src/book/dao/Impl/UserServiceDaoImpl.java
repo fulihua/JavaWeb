@@ -17,6 +17,6 @@ public class UserServiceDaoImpl extends BaseDao<User> implements UserServiceDao 
 
     @Override
     public void addUser(User user) {
-        executeUpdate("insert into t_user values(0,?,?,?,?)",user.getName(),user.getPwd(),user.getEmail(),user.getRole());
+        executeUpdate("insert into t_user values(0,?,?,?,?)",user.getUname(),user.getPwd(),user.getEmail(),user.getRole());
     }
 }

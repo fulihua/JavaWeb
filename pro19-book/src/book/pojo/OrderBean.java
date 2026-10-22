@@ -19,6 +19,10 @@ public class OrderBean {
     public OrderBean() {
     }
 
+    public OrderBean(Integer id) {
+        this.id = id;
+    }
+
     public OrderBean(Integer id, String orderNo, Date orderDate, Double orderMoney, Integer orderCount, Integer orderStatus, User user) {
         this.id = id;
         this.orderNo = orderNo;

@@ -81,4 +81,26 @@ public class ClassUtil {
                 return true;
         }
     }
+
+    public static String underLineToCamel(String columnName){
+        if(columnName==null||columnName.contains("_")){
+            return columnName;
+        }
+            boolean nextUpper = false;
+            StringBuilder sb = new StringBuilder();
+            for(char c:columnName.toCharArray()){
+                if(c=='_'){
+                    nextUpper = true;
+                }else{
+                    if(nextUpper){
+                        sb.append(Character.toUpperCase(c));
+                        nextUpper=false;
+                    }else{
+                        sb.append(c);
+                    }
+                }
+            }
+
+        return sb.toString();
+    }
 }

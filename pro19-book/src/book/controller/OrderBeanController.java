@@ -5,6 +5,7 @@ import book.service.BookService;
 import book.service.CartItemService;
 import book.service.OrderBeanService;
 import book.service.OrderDetailService;
+import book.util.OrderBeanUtil;
 
 import javax.servlet.http.HttpSession;
 import java.util.Date;
@@ -24,12 +25,14 @@ public class OrderBeanController {
     private BookService bookService;
     private OrderDetailService orderDetailService;
     //结账
-    public String checkOut(HttpSession session){
+    public String checkout(HttpSession session){
         User currUser =(User) session.getAttribute("currUser");
         Cart cart = currUser.getCart();
 
         //向订单表添加一条记录
         OrderBean orderBean = new OrderBean(new Date(),cart.getTotalMoney(),cart.getTotalCount(),0,currUser);
+        String orderNo = OrderBeanUtil.generateOrderNoStr(new Date());
+        orderBean.setOrderNo(orderNo);
         orderBeanService.addOrderBean(orderBean);
         Map<Integer, CartItem> cartItemMap = cart.getCartItemMap();
         cartItemMap.forEach((bookId,cartItem)->{
@@ -47,7 +50,7 @@ public class OrderBeanController {
 
         //5.清除内存中的数据信息
         currUser.getCart().getCartItemMap().clear();
-        return "redirect:book.do";
+        return "cart/checkout";
     }
 
     public String index(HttpSession session){

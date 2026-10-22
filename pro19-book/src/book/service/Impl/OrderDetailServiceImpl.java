@@ -10,9 +10,10 @@ import book.service.OrderDetailService;
  * @description
  */
 public class OrderDetailServiceImpl implements OrderDetailService {
-    private OrderDetailDao orderDetailServiceDao;
+    private OrderDetailDao orderDetailDao;
     @Override
     public void addOrderDetail(OrderDetail orderDetail) {
-        orderDetailServiceDao.addOrderDetail(orderDetail);
+        orderDetailDao.addOrderDetail(orderDetail);
     }
+
 }

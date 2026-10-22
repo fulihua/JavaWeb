@@ -35,15 +35,21 @@ public class UserFilter implements Filter {
             filterChain.doFilter(request,response);
             return;
         }else {
-            HttpSession session = request.getSession();
-            Object userObj = session.getAttribute("currUser");
+            HttpSession session = request.getSession(false);
+            Object userObj = null;
+            if(session!=null){
+                userObj = session.getAttribute("currUser");
+            }
             if(userObj==null){
                 response.setCharacterEncoding("UTF-8");
                 response.setContentType("text/html;charset=utf-8");
                 PrintWriter out = response.getWriter();
                 out.print("<script>alert('请先登录！');window.location.href='page?page=user/login';</script>");
                 out.flush();
+                return;
             }else{
+                System.out.println("【UserFilter放行】sessionId="+session.getId());
+                System.out.println("【UserFilter放行】currUser="+session.getAttribute("currUser"));
                 filterChain.doFilter(request,response);
             }
         }
